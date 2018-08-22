@@ -1,5 +1,13 @@
+ body {
+  background-color: grey;
+ }
+
  .navbar {
   min-height: 80px;
+}
+
+.increasepaddingacc {
+  padding-bottom: 205px;
 }
 
 .navbar-brand {
@@ -13,27 +21,51 @@
 }
 
 .btn {
-  margin-right: 20px;
+  margin-right: 15px;
   margin-top: 5px;
   margin-bottom: 5px
 
 }
 
+/*changes size of the drop down menus to fit main button*/
 #dropdownMenuLink1 {
   margin-right: 20px;
   padding-right: 44px;
   padding-left: 44px;
 }
-
 #dropdownMenuLink2 {
   margin-right: 0px;
   padding-right: 26px;
   padding-left: 26px;
 }
 
-
-/* to change background of dropdown
+/*changes to drop down menu*/
 .navbar-nav > li > .dropdown-menu { 
   background-color: #6D757D;
 }
-*/
+.navbar-nav > li > .dropdown-menu > a {
+  color: white;
+}
+.navbar-nav > li > .dropdown-menu a:hover {
+color: black !important;
+}
+
+/*changes to size images in carousel*/
+.carousel {
+  max-height: 600px;
+  overflow: hidden;
+}
+
+/*the grid*/
+.container {
+  justify-content: space-around;
+ }
+
+.griditem {
+  padding: 20px;
+  margin: 2px;
+  text-align: justify;
+  color: white;
+  background-color: blue;
+}
+
