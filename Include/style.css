@@ -1,0 +1,81 @@
+ body {
+  background-color: grey;
+ }
+
+ .navbar {
+  min-height: 80px;
+}
+
+.increasepaddingacc {
+  padding-bottom: 205px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.fa-tape {
+  font-size: 30px;
+}
+
+.btn {
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px
+
+}
+
+/*changes size of the drop down menus to fit main button*/
+#dropdownMenuLink1 {
+  margin-right: 20px;
+  padding-right: 44px;
+  padding-left: 44px;
+}
+#dropdownMenuLink2 {
+  margin-right: 0px;
+  padding-right: 26px;
+  padding-left: 26px;
+}
+
+/*changes to drop down menu*/
+.navbar-nav > li > .dropdown-menu { 
+  background-color: #6D757D;
+}
+.navbar-nav > li > .dropdown-menu > a {
+  color: white;
+}
+.navbar-nav > li > .dropdown-menu a:hover {
+color: black !important;
+}
+
+/*changes to size images in carousel*/
+.carousel {
+  max-height: 600px;
+  overflow: hidden;
+}
+
+/*the grid*/
+.flexflex {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 90%
+ }
+
+.griditem {
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .flexflex {
+    flex-wrap: wrap
+  }
+}
