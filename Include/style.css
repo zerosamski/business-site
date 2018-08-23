@@ -115,4 +115,31 @@ p {
   margin-bottom: 20px;
 }
 
+.page-footer {
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0px 100px;
+  max-width: 80%;
+  justify-content: space-around;
+
+}
+
+.company {
+  margin: 0px auto;
+  max-width: 80%;
+}
+
+.orders {
+  margin: 0px auto;
+  max-width: 80%;
+  padding-left: 50px;
+}
+
+.social {
+  margin: 0px auto;
+  max-width: 80%;
+  padding-left: 87px;
+}
 
