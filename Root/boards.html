@@ -6,7 +6,6 @@
         <link rel="stylesheet" type="text/css" href="../include/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="../include/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -25,7 +24,7 @@
                             Boards
                           </a>
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                            <a class="dropdown-item" href="#">Overview</a>
+                            <a class="dropdown-item" href="boards.html">Overview</a>
                             <a class="dropdown-item" href="#">Electric</a>
                             <a class="dropdown-item" href="#">Cruising</a>
                             <a class="dropdown-item" href="#">Street/Vert</a>
@@ -60,28 +59,31 @@
                 </ul>
             </div>
         </nav>
+
+      <div class="container">
         
-        <main>
-            <div class="container">  
-                <form class="theform">
-                    <h3 class="contactintro"> Have a question? Proposal? Just want to get in touch? Leave your details below and we'll get back to you within 48 hours.
-                    </h3> 
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                            <input type="text" class="form-control" placeholder="Name" id="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" placeholder="Email" id="email" required="">
-                    </div>
-                    <div class="form-group">
-                        <label for="comments">Comments</label>
-                        <textarea class="form-control" placeholder="Comments" id="comments" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+        <div class="row images">
+          <div class="col-lg-4 col-sm-6">
+            <div class="img-thumbnail img-responsive">
+              <a href="#"><img class="flex" src="../images/electric.jpg" style="width:100%"></a>
+              </div>
+              <p class="textboards">Electric</p>
             </div>
-        </main>
+          <div class="col-lg-4 col-sm-6">
+            <div class="img-thumbnail img-responsive">
+              <a href="#"><img class="flex" src="../images/longboard.jpg" style="width:100%"></a>
+            </div>
+            <p class="textboards">Cruiser</p>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="img-thumbnail img-responsive">
+              <a href="#"><img class="flex" src="../images/trick.jpg" style="width:100%"></a>
+            </div>
+            <p class="textboards">Street/Vert</p>
+        </div>
+      </div>
+
+    </div>
 
         <footer class="page-footer">
 

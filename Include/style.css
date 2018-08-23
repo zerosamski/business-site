@@ -3,14 +3,20 @@
  }
 
 footer {
-   width:100%;
-   position: sticky;
-   bottom: 0px;
-   text-align: center; /* This line is not needed but centers your text */
+  padding: 30px;
+  width:100%;
+  position: sticky;
+  bottom: 0px;
+  text-align: center; /* This line is not needed but centers your text */
+  background-color: #2E2E2E 
    }
 
 h5, h3, h4, p, a {
   color: white;
+}
+
+.images {
+  margin-top: 100px !important;
 }
 
 .selfietext{
@@ -21,6 +27,12 @@ h5, h3, h4, p, a {
 }
 label {
   color: white;
+}
+
+img {
+    width: 100%; 
+    height: 300px;
+    object-fit: cover;
 }
 
  .navbar {
@@ -133,14 +145,6 @@ background-size: 100%;
   margin-bottom: 100px;
 }
 
-
-
-https://images.unsplash.com/photo-1524054791722-eadb60c13eb1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d24d6da2f861792716279a80a790d4c&auto=format&fit=crop&w=2250&q=80
-
-p {
-  opacity: 1 !important;
-}
-
 @media (max-width: 750px) {
   .flexflex {
     flex-wrap: wrap
@@ -188,7 +192,15 @@ p {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  margin-bottom:20px;
+}
+
+.selfietext {
+  max-height: 100vh;
+}
+
+.textboards {
+  text-align: center;
+  padding-top: 5px;
 }
 
 
