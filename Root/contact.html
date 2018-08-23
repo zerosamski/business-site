@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=false;">
+        <title>Roller Skateshop</title> 
+        <link rel="stylesheet" type="text/css" href="../include/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../include/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-tape align-center">ROLLER</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartoggle" aria-controls="nnavbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbartoggle">    
+            
+                <ul class="navbar-nav mr-auto">
+                    <li class="boards dropdown d-inline-block nav-item dropdown">
+                          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
+                            Boards
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                            <a class="dropdown-item" href="#">Electric</a>
+                            <a class="dropdown-item" href="#">Cruising</a>
+                            <a class="dropdown-item" href="#">Street/Vert</a>
+                        </div>
+                    </li>
+
+                    <li class="accessories nav-item dropdown">
+                          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Accessories
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                            <a class="dropdown-item" href="#">Maintenance</a>
+                            <a class="dropdown-item" href="#">Wheels</a>
+                            <a class="dropdown-item" href="#">Decks</a>
+                            <a class="dropdown-item" href="#">Locks</a>
+                            <a class="dropdown-item" href="#">Helmets</a>
+                            <a class="dropdown-item" href="#">Protection</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-secondary" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary" href="#">Contact us!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <main>
+            <div class="container">  
+                <form class="theform">
+                    <h3 class="contactintro"> Have a question? Proposol? Just want to get in touch? Leave your details below and we'll get back to you within 48 hours.
+                    </h3> 
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                            <input type="text" class="form-control" placeholder="Name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" id="email" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Comments</label>
+                        <textarea class="form-control" placeholder="Comments" id="comments" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../include/bootstrap.js"></script>
+        <script src="../include/javascript.js"></script>
+    </body>
+</html>
