@@ -79,3 +79,12 @@ color: black !important;
     flex-wrap: wrap
   }
 }
+
+/*changes to the form */
+.theform {
+  margin-top: 60px;
+}
+
+.contactintro {
+  margin-bottom: 20px;
+}
