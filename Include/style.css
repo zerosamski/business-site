@@ -1,9 +1,25 @@
  body {
-  background-color: grey;
+  background-color: #212121;
  }
+
+footer {
+   width:100%;
+   position: sticky;
+   bottom: 0px;
+   text-align: center; /* This line is not needed but centers your text */
+   }
+
+h5, h3, a {
+  color: white;
+}
+
+label {
+  color: white;
+}
 
  .navbar {
   min-height: 80px;
+  background-color: #2E2E2E 
 }
 
 .increasepaddingacc {
@@ -25,7 +41,21 @@
   margin-right: 15px;
   margin-top: 5px;
   margin-bottom: 5px
+}
 
+.btn-secondary {
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.btn-primary {
+  background-color: #2E2E2E; 
+  border-color: #2E2E2E;
+}
+
+.btn-secondary:hover {
+  background-color: #212121;
+  border-color: #212121;
 }
 
 /*changes size of the drop down menus to fit main button*/
@@ -42,7 +72,7 @@
 
 /*changes to drop down menu*/
 .navbar-nav > li > .dropdown-menu { 
-  background-color: #6D757D;
+  background-color: #212121;
 }
 .navbar-nav > li > .dropdown-menu > a {
   color: white;
@@ -92,6 +122,11 @@ background-size: 100%;
   background-size: 100%;
 }
 
+/*contact form*/
+.container {
+  margin-bottom: 100px;
+}
+
 
 
 https://images.unsplash.com/photo-1524054791722-eadb60c13eb1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d24d6da2f861792716279a80a790d4c&auto=format&fit=crop&w=2250&q=80
@@ -119,11 +154,10 @@ p {
   margin: 0 auto;
 }
 
-.container {
+.container1 {
   margin: 0px 100px;
   max-width: 80%;
   justify-content: space-around;
-
 }
 
 .company {
