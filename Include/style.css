@@ -9,10 +9,16 @@ footer {
    text-align: center; /* This line is not needed but centers your text */
    }
 
-h5, h3, a {
+h5, h3, h4, p, a {
   color: white;
 }
 
+.selfietext{
+  text-align: center;
+  padding-top: 200px;
+  max-width: 80%;
+  margin: 0 auto;
+}
 label {
   color: white;
 }
@@ -176,4 +182,14 @@ p {
   max-width: 80%;
   padding-left: 87px;
 }
+
+.selfie {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("../images/entrepreneurs.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom:20px;
+}
+
+
 
