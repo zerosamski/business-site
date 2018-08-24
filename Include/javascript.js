@@ -15,16 +15,16 @@ $(document).ready(function () {
 	  	$(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(100);
 	});
 
-	// increase and remove navbar size when dropdown-menu appears
-	/*$('ul.navbar-nav li.accessories, ul.navbar-nav li.boards').on("mouseenter", function() {
-		$('.navbar').addClass("increasepaddingacc")
-	});
+	//hover over the accesoires and boards images, makes it little bit grayed out
+	$('.flex').hover(function() {
+       $(this).animate({opacity: 0.5}, 500);
+   	}, function() {
+       $(this).animate({opacity: 1.0}, 500);
+   	});
 
-	$('ul.navbar-nav .dropdown-menu').on("mouseleave", function() {
-		setTimeout(function() {
-		$('.navbar').removeClass("increasepaddingacc");
-   		}, 200);
-	});*/
-
+	// for fun instead of putting links in the html images, did it with jquery function, click goes to failure.html
+   	 $('.flex').on( 'click',function(){
+     window.location.href = "failure.html";
+    });
 
 });
